@@ -8,6 +8,14 @@
 
 /* Query RIPE (eu)/APNIC (asia)/AFRNIC (africa)/LANIC (SA)/ARIN (NA) database*/
 
+/* tests:
+185.1.113.5 - no asn
+185.82.92.37 - asn + hostname
+86.38.8.45 - asn+hostname (backup)
+*/
+
+https://stat.ripe.net/data/prefix-overview/data.json?max_related=50&resource=<ip>
+
 /* Output */
 
 {
